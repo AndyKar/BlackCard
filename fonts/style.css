@@ -1,0 +1,376 @@
+/*
+  Theme Name: 
+  Theme URI: 
+  Version: 
+  Description: 
+  Author: 
+  Author URI: 
+  Created Date: 14/07/2017
+ 
+*/
+@font-face {
+    font-family: OpenSans; 
+    src: url(./fonts/OpenSans.ttf);
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  
+}
+body h3{
+	color: #0a8d98;
+	font-size: 28px;
+	font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+body p{
+	color: #000000;
+	font-size: 16px;
+	font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+h3{
+	font-family: Open Sans, sans-serif;
+	
+
+}
+tr, th, td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle;
+  
+}
+div{
+	/*border:1px solid red!important;*/
+}
+
+
+footer, header, section {
+  display: block;
+}
+
+body {
+	font-family: OpenSans, sans-serif;
+	background: #e7e8ed!important;
+  
+}
+.wrapper {
+  display: table;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
+}
+.pad0{
+	position: relative;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+.head{
+	 height: auto;
+	 text-align: center;
+}
+.img-center{
+	margin: 0px auto 0;
+	
+}
+.logo{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.headh{
+	margin: 50px auto 0;
+	/*width: 420px;*/
+	text-align: center;
+}
+.headh h1{
+	color: #7A3802;
+	font-size: 40px;
+	font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.headh h2{
+	color: #000000;
+	font-size: 20px;
+	font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.info{
+	text-align: center;
+	margin: 30px auto 30px;
+	font-size: 16px;
+	padding: 0 30px 0 30px;
+}
+.info h2{
+	padding-left: 40px;
+	font-size: 32px;
+}
+
+ 
+ .scrollup{
+width:40px;
+height:40px;
+opacity:.4;
+position:fixed;
+bottom:30px;
+right:30px;
+display:none;
+text-indent:-9999px;
+background: url('./images/icon_top.png') no-repeat center center;
+}
+.scrollup:hover {
+opacity:.6;
+}
+.back-img{
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	
+}
+.over{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background: #c2c2c2;
+	
+}
+.back-img img{
+	width: 100%;
+	min-width: 1200px!important;
+	min-height: 450px!important;
+	
+}
+.head_logo{
+	margin: 10px 0 5px;
+}
+.main-nav {
+	background: #d2d2d2;
+}
+.nav-element {
+	display: inline;
+	float: right;
+	margin: 20px 20px 0px;
+	padding: 10px 10px 0;
+	text-decoration: none;
+}
+.nav-element:hover .nav-active {
+	background: #f8c65b; 
+}
+.active, .active:hover{
+	background: #7A3802!important;
+}
+.nav-element a{
+	text-decoration: none!important;
+	color: #2d2d2d!important;
+	font-weight: 500;
+	font-size: 16px;
+}
+.nav-active {
+	margin: 15px 0px 0px;
+	height: 5px;
+	background: #d2d2d2; /*transparent;*/
+}
+ul.update { 
+	list-style:none;
+	font-size:1.1em; 
+	margin-top:10px 
+}
+ul.update li{ 
+	height:30px; 
+	border-bottom:#dedede solid 1px; 
+	text-align:left;
+}
+ul.update li:first-child{ 
+	border-top:#dedede solid 1px;
+	height:30px;
+	text-align:left; 
+ }
+#flash { 
+	margin-top:20px; 
+	text-align:left; 
+}
+#searchresults { 
+	text-align:left; 
+	margin-top:20px; 
+	display:none; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:16px; color:#000; 
+}
+.word { 
+	font-weight:bold; 
+	color:#000000; 
+}
+#search_box  { 
+	padding:4px; 
+	border: solid 1px #ccc; 
+	margin: 5px 10px!important;
+	width:200px;
+	height:26px!important;
+	font-size:16px!important;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+ }
+ :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+select { 
+	padding:4px; 
+	border: solid 1px #ccc; 
+	margin: 5px 10px!important;
+	height:36px!important;
+	font-size:16px!important;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+ }
+ select:active { 
+
+ -moz-border-radius: 6px;
+ -webkit-border-radius: 6px;
+ }
+.search_button { 
+border: solid 1px #ccc; 
+padding: 6px 20px; 
+color:#2c2c2c; 
+font-weight:600; 
+font-size:16px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+ }
+.found { 
+font-weight: bold;
+ font-style: italic; 
+ color: #ff0000; }
+
+ .partner-table, .sub-table{
+	width: 99%;
+	border: none!important;
+	text-align:left;
+}
+.partner-table caption, .sub-table caption{
+	border: none!important;
+	background: #7A3802;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	font-weight: 300;
+}
+
+.partner-table th, .sub-table th{
+	text-align: left;
+	border: none!important;
+	background: #c2c2c2;
+	color: #7A3802;
+	font-size: 16px;
+	padding: 10px;
+	font-weight: 400;
+}
+
+.partner-table tr{
+	border: none!important;
+	padding-left: 10px;
+}
+
+.partner-table tr:nth-child(odd) {
+	background: #f3f3f3;
+	
+}
+.partner-table td, .partner-table th td{
+	text-align: left;
+	border: none!important;
+	padding: 10px!important;
+	
+}
+.partner-table td:first-child {
+	border: none!important;
+	padding: 3px!important;
+	
+}
+.sub-table tr{
+	text-align: left;
+	font-size: 16px;
+	padding-left: 10px;
+	font-weight: 300;
+}
+.sub-table td{
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: 300;
+}
+.sub-table td:hover{
+	background: #f8c65b;
+}
+.title {
+	text-align: center;
+	margin: 20px 10px;
+}
+.title h2{
+	color: #2c2c2c;
+	font-size: 36px;
+	font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+.content{
+	margin: 20px 0px 20px 0px;
+	padding: 0 10px;
+}
+.image {
+	padding:20px;
+}
+
+.content h3{
+	color: #7A3802;
+	font-size: 28px;
+	font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.content-text {
+	margin: 0px 20px 20px;
+	
+}
+.visi {
+	display: table!important;
+	width: 100%;
+	
+	
+}
+#about {
+	background: #c2c2c2;
+	padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 580px) {
+	
+	
+ }
+}
